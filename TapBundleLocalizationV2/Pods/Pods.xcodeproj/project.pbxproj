@@ -6,44 +6,19 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = SwiftLint;
-			productName = SwiftLint;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
-		23CD25AF0D8F01C2EE0D7E29B7B21044 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		4935909BADBB20E531A22E5DE7153E96 /* Pods-TapBundleLocalizationV2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93B76C5B188026257B3130A9FFD6C60E /* Pods-TapBundleLocalizationV2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A6CA49B96A5BCA2C20CB152F945654E4 /* Pods-TapBundleLocalizationV2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E01EF60DFB4113408E5432A4A8EBF1C6 /* Pods-TapBundleLocalizationV2-dummy.m */; };
+		19265EDF25DB8F0A591C5562BE5F789B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F7F21C372C8056B99E8495730C3C34A1 /* Pods-TapBundleLocalizationV2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E01EF60DFB4113408E5432A4A8EBF1C6 /* Pods-TapBundleLocalizationV2-dummy.m */; };
+		FF8782AFA8E23D12FBB7063155DE3D93 /* Pods-TapBundleLocalizationV2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93B76C5B188026257B3130A9FFD6C60E /* Pods-TapBundleLocalizationV2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		EE392DEDC557D5281A1D8D848A6FE90F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
-			remoteInfo = SwiftLint;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2D4E950CB749CB82999F00F28D460017 /* Pods-TapBundleLocalizationV2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TapBundleLocalizationV2.release.xcconfig"; sourceTree = "<group>"; };
-		30900E1370E5235F54A99511F90DB43E /* Pods_TapBundleLocalizationV2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TapBundleLocalizationV2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.debug.xcconfig; sourceTree = "<group>"; };
+		30900E1370E5235F54A99511F90DB43E /* Pods-TapBundleLocalizationV2 */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TapBundleLocalizationV2"; path = Pods_TapBundleLocalizationV2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57AB5D7A954175F4939D375CE88A8F13 /* Pods-TapBundleLocalizationV2-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TapBundleLocalizationV2-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		93B76C5B188026257B3130A9FFD6C60E /* Pods-TapBundleLocalizationV2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TapBundleLocalizationV2-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0A675F73724CC93AFF9B514B910071D /* Pods-TapBundleLocalizationV2-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TapBundleLocalizationV2-Info.plist"; sourceTree = "<group>"; };
 		D125092E0B43460B955B2B6015ACB6DE /* Pods-TapBundleLocalizationV2-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TapBundleLocalizationV2-acknowledgements.plist"; sourceTree = "<group>"; };
 		E01EF60DFB4113408E5432A4A8EBF1C6 /* Pods-TapBundleLocalizationV2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TapBundleLocalizationV2-dummy.m"; sourceTree = "<group>"; };
@@ -52,47 +27,29 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		642DD9AC014B3D4BB153A68060268886 /* Frameworks */ = {
+		E30EC7FC5894BB5DAAE3B0F7CF78F1A9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23CD25AF0D8F01C2EE0D7E29B7B21044 /* Foundation.framework in Frameworks */,
+				19265EDF25DB8F0A591C5562BE5F789B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		73F7A9E73605B1A4AF10A081466C33B4 /* Products */ = {
+		219D64EADF840FDCEA02522B9E6FFBC0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				30900E1370E5235F54A99511F90DB43E /* Pods_TapBundleLocalizationV2.framework */,
+				30900E1370E5235F54A99511F90DB43E /* Pods-TapBundleLocalizationV2 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7FDA596DBE0337ACDFE55A210D54EF26 /* Support Files */ = {
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */,
-				7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SwiftLint";
-			sourceTree = "<group>";
-		};
-		965877409E01FB3D85D85E90E6B30185 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D96179D43A67C5D5323B0682D32C133C /* SwiftLint */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -126,8 +83,7 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				965877409E01FB3D85D85E90E6B30185 /* Pods */,
-				73F7A9E73605B1A4AF10A081466C33B4 /* Products */,
+				219D64EADF840FDCEA02522B9E6FFBC0 /* Products */,
 				C4D62E92EE2A923ED43BD7027A2E2A2E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -135,27 +91,19 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D96179D43A67C5D5323B0682D32C133C /* SwiftLint */ = {
-			isa = PBXGroup;
-			children = (
-				7FDA596DBE0337ACDFE55A210D54EF26 /* Support Files */,
-			);
-			path = SwiftLint;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		995944308A16843121BC06EDA10C92A4 /* Headers */ = {
+		992E3C413E3F9CF74EB7C2EAFAD7C6B6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4935909BADBB20E531A22E5DE7153E96 /* Pods-TapBundleLocalizationV2-umbrella.h in Headers */,
+				FF8782AFA8E23D12FBB7063155DE3D93 /* Pods-TapBundleLocalizationV2-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,21 +112,20 @@
 /* Begin PBXNativeTarget section */
 		B44DF9A14EB8B8CF863918E44169DF9C /* Pods-TapBundleLocalizationV2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9F5622FE0AECCB0955ADBA65ED45953D /* Build configuration list for PBXNativeTarget "Pods-TapBundleLocalizationV2" */;
+			buildConfigurationList = 30D66203E23320979D587C1CD9C00029 /* Build configuration list for PBXNativeTarget "Pods-TapBundleLocalizationV2" */;
 			buildPhases = (
-				995944308A16843121BC06EDA10C92A4 /* Headers */,
-				F885157475C042736844EB04B0BB637C /* Sources */,
-				642DD9AC014B3D4BB153A68060268886 /* Frameworks */,
-				EC541A99191ECB3F825E4B0EBB8B4C49 /* Resources */,
+				992E3C413E3F9CF74EB7C2EAFAD7C6B6 /* Headers */,
+				392668D0DA177EF5CCDD3E98971E6E0A /* Sources */,
+				E30EC7FC5894BB5DAAE3B0F7CF78F1A9 /* Frameworks */,
+				B9E3831C210A3DB404265D9FA92A6540 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BBFF07F3E8CEE1D06C525C51D7030948 /* PBXTargetDependency */,
 			);
 			name = "Pods-TapBundleLocalizationV2";
-			productName = "Pods-TapBundleLocalizationV2";
-			productReference = 30900E1370E5235F54A99511F90DB43E /* Pods_TapBundleLocalizationV2.framework */;
+			productName = Pods_TapBundleLocalizationV2;
+			productReference = 30900E1370E5235F54A99511F90DB43E /* Pods-TapBundleLocalizationV2 */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -187,30 +134,29 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 73F7A9E73605B1A4AF10A081466C33B4 /* Products */;
+			productRefGroup = 219D64EADF840FDCEA02522B9E6FFBC0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				B44DF9A14EB8B8CF863918E44169DF9C /* Pods-TapBundleLocalizationV2 */,
-				52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EC541A99191ECB3F825E4B0EBB8B4C49 /* Resources */ = {
+		B9E3831C210A3DB404265D9FA92A6540 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -220,65 +166,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F885157475C042736844EB04B0BB637C /* Sources */ = {
+		392668D0DA177EF5CCDD3E98971E6E0A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6CA49B96A5BCA2C20CB152F945654E4 /* Pods-TapBundleLocalizationV2-dummy.m in Sources */,
+				F7F21C372C8056B99E8495730C3C34A1 /* Pods-TapBundleLocalizationV2-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		BBFF07F3E8CEE1D06C525C51D7030948 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftLint;
-			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
-			targetProxy = EE392DEDC557D5281A1D8D848A6FE90F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		46EECD2DED30D7C5FE141C0B267C2D3F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		55DD740115BE746C8DBB7753806D85D5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		8BC5675BD4E8CFBA54A45C7C89C03A16 /* Debug */ = {
+		891E2A7000A71CFC3A588E52A6F0EA08 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F258296DCA60D2B5EEEFB2F71552646F /* Pods-TapBundleLocalizationV2.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -289,7 +193,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-TapBundleLocalizationV2/Pods-TapBundleLocalizationV2-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,10 +214,11 @@
 			};
 			name = Debug;
 		};
-		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -336,6 +241,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -358,7 +264,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -370,10 +276,11 @@
 			};
 			name = Release;
 		};
-		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -396,6 +303,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -421,7 +329,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -434,12 +342,12 @@
 			};
 			name = Debug;
 		};
-		DAC5BF398CD6564BE780ED5F2D745B40 /* Release */ = {
+		EB2A0DC50CBE72D255C87CE12EB1E5FF /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2D4E950CB749CB82999F00F28D460017 /* Pods-TapBundleLocalizationV2.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -450,7 +358,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-TapBundleLocalizationV2/Pods-TapBundleLocalizationV2-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -475,29 +383,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		30D66203E23320979D587C1CD9C00029 /* Build configuration list for PBXNativeTarget "Pods-TapBundleLocalizationV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				891E2A7000A71CFC3A588E52A6F0EA08 /* Debug */,
+				EB2A0DC50CBE72D255C87CE12EB1E5FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				916E0404255105F480DC4950B7625F7A /* Debug */,
-				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9F5622FE0AECCB0955ADBA65ED45953D /* Build configuration list for PBXNativeTarget "Pods-TapBundleLocalizationV2" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8BC5675BD4E8CFBA54A45C7C89C03A16 /* Debug */,
-				DAC5BF398CD6564BE780ED5F2D745B40 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				46EECD2DED30D7C5FE141C0B267C2D3F /* Debug */,
-				55DD740115BE746C8DBB7753806D85D5 /* Release */,
+				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
+				903A0004D3E6651EFD5D2E16214D101B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
