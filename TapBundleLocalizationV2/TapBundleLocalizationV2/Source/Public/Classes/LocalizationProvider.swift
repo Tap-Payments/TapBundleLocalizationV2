@@ -5,6 +5,8 @@
 //  Copyright © 2019 Tap Payments. All rights reserved.
 //
 
+import class	Foundation.Bundle
+import struct	Foundation.Locale
 import enum		UIKit.UIInterface.UIUserInterfaceLayoutDirection
 
 /// Localization provider.

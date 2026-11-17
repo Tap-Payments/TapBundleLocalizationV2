@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TapBundleLocalizationV2"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "Utility to load the localization from the bundle. Might be useful when you have dynamic language change feature inside the app."
 
   # This description is used to generate tags and improve search results.
@@ -63,8 +63,8 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  spec.platform     = :ios, "11.0"
-  spec.swift_versions = ['4.0', '4.2', '5.0']
+  spec.platform     = :ios, "15.0"
+  spec.swift_versions = ['5.0']
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
   # spec.osx.deployment_target = "10.7"
